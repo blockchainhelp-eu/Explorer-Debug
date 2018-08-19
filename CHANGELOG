@@ -1,0 +1,36 @@
+1.3.8
+--------
+
+* Speed optimization for `HexaryTrie._prune_node` (https://github.com/ethereum/py-trie/pull/60)
+
+1.1.0
+--------
+
+* Add trie syncing
+* Witness helper functions for binary trie
+
+1.0.1
+--------
+
+* Fix broken deprecated `Trie` class.
+
+1.0.0
+--------
+
+* Rename `Trie` to `HexaryTrie`
+* Add new `BinaryTrie` class
+
+0.3.2
+--------
+
+* Add `Trie.get_from_proof` for verification of trie proofs.
+
+0.3.0
+--------
+
+* Remove snapshot and revert API
+
+0.1.0
+--------
+
+* Initial Release
